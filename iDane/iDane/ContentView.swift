@@ -9,11 +9,22 @@ import SwiftUI
 
 struct ContentView: View {
     
+    let menu = Bundle.main.decode([MenuSection].self, from: "menu.json")
     
     var body: some View {
-        VStack{
-            Text("Hola Mundo")
-        }
+        NavigationView{
+                    List{
+                        ForEach(menu) { section in
+                            Section(header: Text(section.name)){
+                                ForEach(section.items) { item in
+                                    Text(item.name)
+                                }
+                            }
+                        }
+                    }
+                    .navigationTitle("Menu")
+                    .listStyle(GroupedListStyle())
+                }
     }
 }
 
