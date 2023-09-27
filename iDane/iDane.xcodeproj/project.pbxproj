@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		5A08BE912AC29AFD00E63FC2 /* ItemRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A08BE902AC29AFD00E63FC2 /* ItemRow.swift */; };
+		5A4D09792AC3E4090061336F /* ItemDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A4D09782AC3E4090061336F /* ItemDetail.swift */; };
 		7304FCDD2ABF987800A14DA6 /* iDaneApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7304FCDC2ABF987800A14DA6 /* iDaneApp.swift */; };
 		7304FCDF2ABF987800A14DA6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7304FCDE2ABF987800A14DA6 /* ContentView.swift */; };
 		7304FCE12ABF987B00A14DA6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7304FCE02ABF987B00A14DA6 /* Assets.xcassets */; };
@@ -20,6 +21,7 @@
 
 /* Begin PBXFileReference section */
 		5A08BE902AC29AFD00E63FC2 /* ItemRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemRow.swift; sourceTree = "<group>"; };
+		5A4D09782AC3E4090061336F /* ItemDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemDetail.swift; sourceTree = "<group>"; };
 		7304FCD92ABF987800A14DA6 /* iDane.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iDane.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7304FCDC2ABF987800A14DA6 /* iDaneApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iDaneApp.swift; sourceTree = "<group>"; };
 		7304FCDE2ABF987800A14DA6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -70,6 +72,7 @@
 				7304FCE02ABF987B00A14DA6 /* Assets.xcassets */,
 				7304FCE22ABF987B00A14DA6 /* Preview Content */,
 				5A08BE902AC29AFD00E63FC2 /* ItemRow.swift */,
+				5A4D09782AC3E4090061336F /* ItemDetail.swift */,
 			);
 			path = iDane;
 			sourceTree = "<group>";
@@ -153,6 +156,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5A4D09792AC3E4090061336F /* ItemDetail.swift in Sources */,
 				7304FCDF2ABF987800A14DA6 /* ContentView.swift in Sources */,
 				7304FCDD2ABF987800A14DA6 /* iDaneApp.swift in Sources */,
 				7304FDD92ABF998100A14DA6 /* Order.swift in Sources */,
