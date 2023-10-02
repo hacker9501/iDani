@@ -18,6 +18,7 @@
 		7304FDD72ABF997800A14DA6 /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7304FDD62ABF997800A14DA6 /* Menu.swift */; };
 		7304FDD92ABF998100A14DA6 /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7304FDD82ABF998100A14DA6 /* Order.swift */; };
 		7304FDDB2ABF99A900A14DA6 /* menu.json in Resources */ = {isa = PBXBuildFile; fileRef = 7304FDDA2ABF99A900A14DA6 /* menu.json */; };
+		733337E52ACB8E0300BFE3E8 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 733337E42ACB8E0300BFE3E8 /* MainView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +34,7 @@
 		7304FDD62ABF997800A14DA6 /* Menu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
 		7304FDD82ABF998100A14DA6 /* Order.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
 		7304FDDA2ABF99A900A14DA6 /* menu.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = menu.json; sourceTree = "<group>"; };
+		733337E42ACB8E0300BFE3E8 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +78,7 @@
 				5A08BE902AC29AFD00E63FC2 /* ItemRow.swift */,
 				5A4D09782AC3E4090061336F /* ItemDetail.swift */,
 				5ADF8B6E2AC7FF3C0049D281 /* OrderView.swift */,
+				733337E42ACB8E0300BFE3E8 /* MainView.swift */,
 			);
 			path = iDane;
 			sourceTree = "<group>";
@@ -160,6 +163,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5A4D09792AC3E4090061336F /* ItemDetail.swift in Sources */,
+				733337E52ACB8E0300BFE3E8 /* MainView.swift in Sources */,
 				5ADF8B6F2AC7FF3C0049D281 /* OrderView.swift in Sources */,
 				7304FCDF2ABF987800A14DA6 /* ContentView.swift in Sources */,
 				7304FCDD2ABF987800A14DA6 /* iDaneApp.swift in Sources */,
