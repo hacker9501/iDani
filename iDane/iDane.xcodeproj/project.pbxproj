@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5A084B492ACF9981005FEA17 /* CheckoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A084B482ACF9981005FEA17 /* CheckoutView.swift */; };
 		5A08BE912AC29AFD00E63FC2 /* ItemRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A08BE902AC29AFD00E63FC2 /* ItemRow.swift */; };
 		5A4D09792AC3E4090061336F /* ItemDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A4D09782AC3E4090061336F /* ItemDetail.swift */; };
 		5ADF8B6F2AC7FF3C0049D281 /* OrderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ADF8B6E2AC7FF3C0049D281 /* OrderView.swift */; };
@@ -22,6 +23,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5A084B482ACF9981005FEA17 /* CheckoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckoutView.swift; sourceTree = "<group>"; };
 		5A08BE902AC29AFD00E63FC2 /* ItemRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemRow.swift; sourceTree = "<group>"; };
 		5A4D09782AC3E4090061336F /* ItemDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemDetail.swift; sourceTree = "<group>"; };
 		5ADF8B6E2AC7FF3C0049D281 /* OrderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderView.swift; sourceTree = "<group>"; };
@@ -79,6 +81,7 @@
 				5A4D09782AC3E4090061336F /* ItemDetail.swift */,
 				5ADF8B6E2AC7FF3C0049D281 /* OrderView.swift */,
 				733337E42ACB8E0300BFE3E8 /* MainView.swift */,
+				5A084B482ACF9981005FEA17 /* CheckoutView.swift */,
 			);
 			path = iDane;
 			sourceTree = "<group>";
@@ -164,6 +167,7 @@
 			files = (
 				5A4D09792AC3E4090061336F /* ItemDetail.swift in Sources */,
 				733337E52ACB8E0300BFE3E8 /* MainView.swift in Sources */,
+				5A084B492ACF9981005FEA17 /* CheckoutView.swift in Sources */,
 				5ADF8B6F2AC7FF3C0049D281 /* OrderView.swift in Sources */,
 				7304FCDF2ABF987800A14DA6 /* ContentView.swift in Sources */,
 				7304FCDD2ABF987800A14DA6 /* iDaneApp.swift in Sources */,
